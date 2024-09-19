@@ -4,7 +4,7 @@ import Banner from '../Components/Banner'
 import Contact from '../Components/Contact'
 import Footer from '../Components/Footer'
 import NavBar from '../Components/NavBar'
-import Projects from '../Components/Projects'
+// import Projects from '../Components/Projects'
 import Skills from '../Components/Skills'
 
 
@@ -15,7 +15,7 @@ export default function Layout() {
             <Banner/>
             <Skills/>
             <AnimationBox/>
-            <Projects/>
+            {/* <Projects/> */}
             <Contact/>
             <Footer/>
         </>

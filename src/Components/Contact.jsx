@@ -33,7 +33,7 @@ export default function Contact() {
         e.preventDefault()
         document.getElementById('contactButton').style.animation = "bounceOutRight 2s linear 1"
         
-        await emailjs.sendForm('service_us0ptih', 'template_1gp4ym7', form.current, 'vY0a7FSQ8wXPvm6lE')
+        await emailjs.sendForm('service_u6ea1b9', 'template_ujyl7r6', form.current, 'EokityHeefIEA5Mmn')
         .then((result) => {
                 console.log(result.text);
             }, (error) => {

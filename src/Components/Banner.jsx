@@ -10,7 +10,7 @@ import headerImg from "../assets/stickers/code-1.gif"
 export default function Banner() {
     const [loopNumber, setLoopNumber] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const wordArray = ["Web Developer"];
+    const wordArray = ["Java Full Stack Developer"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100)
     const period = 2000;
@@ -53,10 +53,10 @@ export default function Banner() {
                         <Col xs={12} md={6} xl={7}>
                             <span className='tagline'>Welcome to my portfolio</span>
                             <h1>Hello I am</h1>
-                            <h1 className='text-Sacramento'>Mohammed <span className='lastName text-Sacramento'>Afrid</span></h1>
+                            <h1 className='text-Sacramento'>Omprakash <span className='lastName text-Sacramento'>Gutta</span></h1>
                             <h1><span className='arrayText'>{text}&nbsp;</span></h1>
-                            <p>I am a Web Developer with a wide range of technical abilities, that enable me to create complicated web apps from scratch. I am knowledgeable on both frontend and backend technologies, and I can nimbly combine the various elements to produce effective webapps.  I am passionate about staying up-to-date with the latest technologies and best practices in web development.</p>
-                            <a href='https://drive.google.com/file/d/1xRX-Yv186Tx79T7AD3dZlzZmqQV__dhV/view?usp=sharing'><button >Resume <ArrowDownCircle size={25} /></button></a>
+                            <p>I am a Java full-stack developer with a diverse set of technical skills, capable of building robust applications from the ground up. My expertise spans both frontend and backend technologies, allowing me to seamlessly integrate different components to deliver high-performance web applications. I have a strong command of Java, Spring Boot, and other frameworks, and I am committed to staying current with the latest trends and best practices in software development.</p>
+                            <a href='https://drive.google.com/file/d/1HzbeHoMOwCtJ5pfEGysrSi8Ok-GsGn6o/view?usp=drive_link'><button >Resume <ArrowDownCircle size={25} /></button></a>
                         </Col>
                         <Col xs={12} md={6} xl={5}>
                             <Tilt>

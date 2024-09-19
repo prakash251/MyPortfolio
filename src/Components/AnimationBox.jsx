@@ -28,18 +28,20 @@ export default function AnimationBox() {
                             <div id="container">
                                 <div id="stage" style={{transform : `${stageAnimation}`}}>
                                     <div id="shape" className={`${animation} backfaces`}>
-                                        <div className="plane one">M</div>
-                                        <div className="plane two">O</div>
-                                        <div className="plane three">H</div>
-                                        <div className="plane four">A</div>
-                                        <div className="plane five">M</div>
-                                        <div className="plane six">E</div>
-                                        <div className="plane seven">D</div>
-                                        <div className="plane eight">A</div>
-                                        <div className="plane nine">F</div>
-                                        <div className="plane ten">R</div>
-                                        <div className="plane eleven">I</div>
-                                        <div className="plane twelve">D</div>
+                                        <div className="plane one">O</div>
+                                        <div className="plane two">M</div>
+                                        <div className="plane three">P</div>
+                                        <div className="plane four">R</div>
+                                        <div className="plane five">A</div>
+                                        <div className="plane six">K</div>
+                                        <div className="plane seven">A</div>
+                                        <div className="plane eight">S</div>
+                                        <div className="plane nine">H</div>
+                                        <div className="plane ten">G</div>
+                                        <div className="plane eleven">U</div>
+                                        <div className="plane twelve">T</div>
+                                        <div className="plane twelve">T</div>
+                                        <div className="plane twelve">A</div>
                                     </div>
                                 </div>
                             </div>
